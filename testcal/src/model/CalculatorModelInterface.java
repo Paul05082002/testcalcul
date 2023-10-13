@@ -11,4 +11,5 @@ public interface CalculatorModelInterface {
 	public abstract void drop();
 	public abstract void swap();
 	public abstract void clear();
+	
 }
