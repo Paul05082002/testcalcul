@@ -1,43 +1,14 @@
 package model;
 
 public interface CalculatorModelInterface {
-	public static void add() {
-		
-	}
-	
-	public static void substract() {
-		
-	}
-	
-	public static void multiply() {
-		
-	}
-	
-	public static void divide() {
-		
-	}
-	
-	public static void opposite() {
-		
-	}
-	
-	public static void push() {
-		
-	}
-	
-	public static void pop() {
-		
-	}
-	
-	public static void drop() {
-		
-	}
-	
-	public static void swap() {
-		
-	}
-	
-	public static void clear() {
-		
-	}
+	public abstract void add();
+	public abstract void substract();	
+	public abstract void multiply();	
+	public abstract void divide(); 	
+	public abstract void opposite();
+	public abstract void push();
+	public abstract void pop();
+	public abstract void drop();
+	public abstract void swap();
+	public abstract void clear();
 }
