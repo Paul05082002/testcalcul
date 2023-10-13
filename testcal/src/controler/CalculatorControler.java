@@ -1,5 +1,5 @@
 package controler;
 
-public class CalculatorControler {
+public class CalculatorControler implements CalculatorControlerInterface {
 
 }
