@@ -2,6 +2,8 @@ package view;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.scene.control.Label;
+import javafx.scene.layout.StackPane;
 
 public class Window extends Application {
 
@@ -23,6 +25,18 @@ public class Window extends Application {
 		Button boutonF = new Button("X");
 		Button boutonD = new Button("/");
 		Button bouton_Push = new Button("<>");
+		
+		
+		StackPane root = new StackPane();
+		
+		Label label = new Label("Fenetre Calculatrice");
+        root.getChildren().add(label);
+
+        // Créer la scène
+        Scene scene = new Scene(root, 300, 200);
+
+        // Définir la scène pour la fenêtre
+        arg0.setScene(scene);
 	}
 
 }
